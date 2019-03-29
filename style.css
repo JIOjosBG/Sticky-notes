@@ -7,7 +7,6 @@ body{
 .jumbotron{
 	background-color:lightblue;
 }
-.btn-primary{
+.btn-info{
 	background-color:lightblue; 
-	color:black;
 }
