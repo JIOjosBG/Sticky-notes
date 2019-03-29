@@ -4,3 +4,10 @@ body{
 .navbar{
 	color: white;
 }
+.jumbotron{
+	background-color:lightblue;
+}
+.btn-primary{
+	background-color:lightblue; 
+	color:black;
+}
