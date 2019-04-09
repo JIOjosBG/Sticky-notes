@@ -9,4 +9,42 @@ body{
 }
 .btn-info{
 	background-color:lightblue; 
+	border-radius: 50px;
+}
+
+button.accordion{
+	cursor: pointer;
+	border:none;
+	outline: none;
+	width: 100px;
+	text-align: left;
+	background: transparent;
+	color:#fff;
+	transition:0.3s;
+	margin-right: 4px 0;
+	border-radius: 50px;
+
+}
+
+button.accordion:hover{
+	background: rgba(255,255,255,0.2);
+	color: #ffffff;
+	padding: 8px;
+
+}
+button.accordion.active{
+	background-color: black;
+	color: white;
+}
+
+
+
+div.panel{
+	background-color: rgba(255,255,255,0.8);
+	color:#000000;
+	border-radius: 50px;
+	overflow: hidden;
+	opacity: 0;
+	max-height: 0;
+
 }
