@@ -48,3 +48,14 @@ div.panel{
 	max-height: 0;
 
 }
+.pnotes{
+	background-color:lightblue;
+	color:black;
+	border-radius: 10px;
+}
+
+.gnotes{
+	background-color: lightblue;
+	color: black;
+	border-radius: 10px;
+}
