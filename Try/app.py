@@ -6,9 +6,12 @@ from flask import Flask, render_template,request
 #python and json
 import os.path
 import json
-if os.path.exists("users.json"):
-    with open("users.json") as file:
-    		data = json.load(file)
+
+
+with open("users.json") as file:
+    data = json.load(file)
+
+
 newdata=data
 print newdata
 

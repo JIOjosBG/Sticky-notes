@@ -1,1 +1,5 @@
-"{ \n name:ad, \n password:asd \n }id:  0  name: adasd pass: asdasd"
+{
+    { "James", 9001 },
+    { "Jo", 3474 },
+    { "Jess", 11926 }
+};
